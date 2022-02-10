@@ -32,7 +32,8 @@ export const AboutDiv = styled.div`
             color: rgb(138,138,138);
         }
         .quote{
-            color: #40E0D0;
+            color: rgb(155,202,215);
+            font-size: 20px;
         }
         .footer{
             align-self: end;

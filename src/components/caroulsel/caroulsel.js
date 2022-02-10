@@ -3,15 +3,12 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 import './style.css'
 import { depoimentos } from "../../data/data";
+import { IconContext } from "react-icons/lib";
 
 export function Carousel(props){
     
-    //const [ data, setData ] = useState([]);
     const data = depoimentos;
     const [ indexData, setIndexData ] = useState(0);
-    useEffect(()=>{
-        console.log(data[indexData]);
-    }, []);
 
 
     function handleNext(e){
@@ -25,7 +22,9 @@ export function Carousel(props){
     return(
         <div className="container" >
             <button onClick={handlePrevious}> 
-                <FiChevronLeft size={80} />
+                <IconContext.Provider value={{color: 'rgb(167,132,91)'}}>
+                    <FiChevronLeft size={70} />
+                </IconContext.Provider>
             </button>
             <div className="body">
                 <h1 className="title" >Depoimentos</h1>
@@ -50,7 +49,9 @@ export function Carousel(props){
                 </div>
             </div>
             <button onClick={handleNext}>
-                <FiChevronRight size={80} />
+                <IconContext.Provider value={{color: 'rgb(167,132,91)'}}>
+                    <FiChevronRight size={70} />
+                </IconContext.Provider>
             </button>
         </div>
     );

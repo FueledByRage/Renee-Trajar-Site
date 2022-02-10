@@ -6,6 +6,7 @@ export const Header = styled.div`
     height: 15vh;
     position: absolute;
     height: 100%;
+    z-index: 9999;
     top: 0px;
     .content {
         position: sticky;

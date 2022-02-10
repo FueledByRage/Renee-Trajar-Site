@@ -16,6 +16,10 @@ export const PromoDiv = styled.div`
         height: 100%;
         h1{
             font-size: 40px;
+            color: rgb(190,150,103);
+        }
+        h2{
+            color: rgb(190,150,103);
         }
         .promo-body{
             margin-top: -20px;

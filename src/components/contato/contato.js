@@ -91,12 +91,12 @@ export const FormularioContato = styled.div`
         }
     }
     .nome{
-        top: 4940px;
+        top: 4840px;
     }
     .email{
-        top: 4995px;
+        top: 4900px;
     }
     .mensagem{
-        top: 5050px;
+        top: 4955px;
     }
 `;

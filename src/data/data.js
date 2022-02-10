@@ -14,13 +14,13 @@ export const depoimentos = [
         cargo: 'DOC Contabilidade Empresarial'
     },    {
         fotoUrl: placeholder,
-        nome: '',
-        depoimento: '',
-        cargo: ''
+        nome: 'José Mauro Marques',
+        depoimento: 'Tenho a honra de  afirmar  que enquanto nossas vidas perdurarem o meu conceito é sempre melhor em relação ao Renee Trajar, sua pessoa, ao profissional competente e indôneo, sempre pontual, atencioso e preocupado em atender da melhor maneira os anseios de seus clientes, incluindo este signatário.',
+        cargo: 'Advogado'
     },    {
         fotoUrl: placeholder,
-        nome: '',
-        depoimento: '',
-        cargo: ''
+        nome: 'Custódia Pereira',
+        depoimento: 'Conheço o excelente e qualificado trabalho de Renee Trajar e sua equié há decadas. Para camisas e ternos, o Renee é imbatível, sempre com preços justos, produtos de excelente qualidade e especialmente tudo é feito com muito cuidado e qualidade. Cumpre os prazos com atendimento de alto nível. O Renee trabalha com perfeição nos detalhes.',
+        cargo: 'Membro do CONSOCIAL - Conselho Superior de Responsabilidade Social da FIESP-SP'
     },
 ];

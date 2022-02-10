@@ -10,6 +10,7 @@ export const LightHeader = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 9999;
     box-shadow: 0px 1px 10px gray;
     img{
         margin-left: 40px;
