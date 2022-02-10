@@ -1,7 +1,63 @@
 .body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
     text-align: center;
     width: 80vw;
+    height: 95%;
+    margin-top: 5%;
+}
+h1{
+    color: white;
+}
+span{
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+.name{
+    color: rgb(167,132,91);
+}
+.cargo{
+    font-size: 15px;
+    color: gainsboro;
+}
+.avatar{
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.container{
+    width: 100%;
+    align-items: center;
+    background-color: rgb(13,44,57);
+    display: flex;
+    flex-direction: row;    
+}
+.dots{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 40px;
+}
+.dot-false{
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgb(1,69,97);
+    border-radius: 100%;
+    margin-left: 5px;
+}
+.dot-true{
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgb(1,69,97);
+    border-radius: 100%;
+    margin-left: 5px;
+    background-color: rgb(1,69,97);
+}
+button{
+    border: none;
+    background-color: transparent;
 }

@@ -5,7 +5,7 @@ export const StyledButton = styled.button`
     width: 100px;
     background: ${props => props.background};
     color:  ${props => props.color};
-    border: ${props => props.border};
+    border: ${props => props.border || 'none'} ;
     padding: 15px;
     width: 300px;
     :hover{

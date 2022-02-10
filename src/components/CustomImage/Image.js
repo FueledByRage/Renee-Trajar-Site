@@ -7,6 +7,6 @@ export const StyledImage = styled.div`
     background-size: cover;
     background-position: center top;
     :hover{
-        opacity: .5
+        transparency: .5
     }
 `;

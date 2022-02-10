@@ -9,5 +9,4 @@ export const CircleAvatar = styled.div`
     background-size: cover;
     background-position: center top;
     border-radius: 100px;
-    align-self: center;
 `;
